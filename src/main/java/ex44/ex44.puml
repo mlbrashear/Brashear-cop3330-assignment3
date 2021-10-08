@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class productInfo {
+    check
+}
+abstract class Main
+
+Main <|-- productInfo
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class sortNames {
+    sort
+}
+abstract class Main
+
+Main <|-- sortNames
+
+@enduml

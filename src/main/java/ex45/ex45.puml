@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class compareUseUtilize{
+    useUtilize
+}
+abstract class Main
+
+Main <|-- compareUseUtilize
+
+@enduml
